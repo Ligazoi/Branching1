@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Miles {
 
     public static void main(String[] args) {
+        double miles = toMilesPerHour(15);
+        System.out.println( miles + " Miles");
 
 
     }
