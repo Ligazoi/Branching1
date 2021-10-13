@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Switch {
     public static void main (String [] args) {
-
-        int weekDay = 5;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please write a day number");
+        int weekDay = input.nextInt();
 
         switch (weekDay) {
             case 1: case 2: case 3: case 4: case 5:

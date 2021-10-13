@@ -36,6 +36,7 @@ public class Days {
             }
             else if (ChoseDataType ==2){
                 System.out.println(Year + "." + Month + "." + Day);
+
             }
 
         }
