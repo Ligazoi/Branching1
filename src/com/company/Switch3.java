@@ -10,7 +10,7 @@ public class Switch3 {
         System.out.println("Please write number Two");
         int numberTwo = input.nextInt();
 
-        System.out.println("Please choose calculation option");
+        System.out.println("Please choose calculation option: + (sum), - (subtract) , / (divide), * (multiply), % (reminder), p (print out both elements) , b (which element bigger) , s (which element smaller)");
         char user = input.next().charAt(0);
 
          switch (user) {
