@@ -37,13 +37,13 @@ public class Main {
     else
         System.out.println("Variable Number Two is odd");
 
-    if (numberOne < 0.0) {
+    if (numberOne < 0) {
         System.out.println("Number One is negative number");
     }
     else
         System.out.println("Number One is positive number");
 
-    if (numberTwo < 0.0) {
+    if (numberTwo < 0) {
         System.out.println("Number Two is negative number");
     }
     else
