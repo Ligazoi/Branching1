@@ -9,15 +9,15 @@ public class Main {
     if (numberOne > numberTwo) {
         System.out.println("The largest variable is number One = " + 17);
     }
-    else
+    else {
         System.out.println("The largest variable is number Two = " + 26);
-
-    if (numberOne < numberTwo) {
-        System.out.println("The smallest variable is number One = " + 17);
     }
-    else
-        System.out.println("The smallest variable is number Two = " + 26);
-
+    if (numberOne < numberTwo) {
+            System.out.println("The smallest variable is number One = " + 17);
+        }
+    else{
+            System.out.println("The smallest variable is number Two = " + 26);
+        }
     if (numberOne==numberTwo) {
         System.out.println("Number One and Number Two are equals");
     }
